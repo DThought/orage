@@ -1245,7 +1245,7 @@ void read_parameters(void)
     g_par.own_icon_row1_color = orage_rc_get_str(orc, "Own icon row1 color"
             , "blue");
     g_par.own_icon_row1_font = orage_rc_get_str(orc, "Own icon row1 font"
-            , "Ariel 24");
+            , "Arial 24");
     g_par.own_icon_row1_x = orage_rc_get_int(orc, "Own icon row1 x", 0);
     g_par.own_icon_row1_y = orage_rc_get_int(orc, "Own icon row1 y", 0);
     g_par.own_icon_row2_data = orage_rc_get_str(orc
@@ -1261,7 +1261,7 @@ void read_parameters(void)
     g_par.own_icon_row3_color = orage_rc_get_str(orc, "Own icon row3 color"
             , "blue");
     g_par.own_icon_row3_font = orage_rc_get_str(orc, "Own icon row3 font"
-            , "Ariel bold 26");
+            , "Arial bold 26");
     g_par.own_icon_row3_x = orage_rc_get_int(orc, "Own icon row3 x", 5);
     g_par.own_icon_row3_y = orage_rc_get_int(orc, "Own icon row3 y", 120);
     /* 0 = monday, ..., 6 = sunday */
